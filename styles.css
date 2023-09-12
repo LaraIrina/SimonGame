@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #183D3D;
+}
+h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size:4rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.container{
+    padding-bottom: 40px;
+}
+.btn{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 20%;
+    border: 4px solid black;
+    margin: 3px;
+}
+#green{
+    border-radius: 20%;
+    background-color: #00DFA2;
+}
+#red{
+    border-radius: 20%;
+    background-color: #FF0060;
+}
+#yellow{
+    border-radius: 20%;
+    background-color: #F6FA70;
+}
+#blue{
+    border-radius: 20%;
+    background-color: #0079FF;
+}
+footer{
+color: white;
+font-family: 'Lobster', cursive;
+}
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
